@@ -1,0 +1,220 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 250px;
+    margin-top: 12px;
+    width: 100%;
+}
+.main-menu ul{
+    display: flex;
+    list-style: none;
+}
+.main-menu ul li{
+    margin-left: 20px;
+    margin-top: 24px;
+    padding-right: 24px;
+}
+.main-menu li a{
+    text-decoration: none;
+    color: #3498db;
+    font-size: 1.3em;
+}
+.main-menu li a:hover{
+    color: rgb(66, 66, 66);
+}
+.main-menu-btn span{
+    border: 1px solid #3498db;
+    padding: 10px 18px;
+}
+.main-menu-btn span:hover{
+    background: #3498db;
+    color: #fff;
+}
+.content-text span{
+    color: #d4d40e;
+    font-size: 1.3em;
+}
+.content-text-btn a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    padding: 14px 28px;
+    background-color: #3498db;
+    border: 2px solid #3498db;
+    transition: 0.3s;
+}
+.content-text-btn{
+    margin-top: 80px;
+}
+.content-text-btn a:hover{
+    background-color: #54ace7;
+    border: 2px solid #54ace7;
+    color: rgb(247, 232, 232);
+}
+.main-img{
+    width: 90px;
+    height: 76px;
+}
+.main-img img{
+    width: 100%;
+    height: 100%;
+}
+.content-text-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-text{
+    text-align: center;
+}
+.content-text h1{
+    font-size: 2.9em;
+}
+.content-text p{
+    font-size: 1.3em;
+}
+.content-img-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 530px);
+    grid-template-rows: repeat(350px);
+    grid-gap: 10px;
+    margin-top: 100px;
+    /* margin-left: 26px; */
+}
+@media (max-width:70em){
+    .content-img-container{
+        grid-template-columns: repeat(2, 460px);
+        grid-template-rows: repeat(310px);
+        grid-gap: 10px;
+    }
+}
+@media (max-width:60em){
+    .content-img-container{
+        grid-template-columns: repeat(2, 400px);
+        grid-template-rows: repeat(290px);
+        grid-gap: 10px;
+    }
+}
+@media (max-width:50em){
+    .content-img-container{
+        grid-template-columns: repeat(2, 370px);
+        grid-template-rows: repeat(270px);
+        grid-gap: 10px;
+    }
+}
+@media (max-width:48em){
+    .content-img-container{
+        grid-template-columns: repeat(1, 640px);
+        grid-template-rows: repeat(280px);
+        grid-gap: 10px;
+    }
+}
+@media (max-width:40em){
+    .content-img-container{
+        grid-template-columns: repeat(1, 550px);
+        grid-template-rows: repeat(270px);
+        grid-gap: 10px;
+    }
+}
+.content-img-container img{
+    width: 100%;
+    height: 100%;
+}
+.result-img{
+    width: 320px;
+    height: 220px;
+}
+@media (max-width:70em){
+    .result-img{
+        width: 280px;
+        height: 210px;
+    }
+}
+@media (max-width:60em){
+    .result-img{
+        width: 240px;
+        height: 180px;
+    }
+}
+@media (max-width:52em){
+    .result-img{
+        width: 228px;
+        height: 160px;
+    }
+}
+@media (max-width:48em){
+    .result-plane-design-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .result-img{
+        width: 610px;
+        height: 370px;
+        outline: none;
+    }
+    .result-text h1{
+        font-size: 2.5em;
+    }
+    .result-text p{
+        font-size: 1.5em;
+    }
+}
+@media (max-width:40em){
+
+    .result-main-img-text{
+        border: none;
+    }
+    .result-img{
+        width: 560px;
+        height: 330px;
+    }
+    .result-text h1{
+        font-size: 3em;
+    }
+    .result-text p{
+        font-size: 2em;
+    }
+}
+.result-img img{
+    width: 100%;
+    height: 100%;
+}
+.result-plan-design{
+    display: flex;
+    justify-content: center;
+    
+}
+.result-text{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.result-text h1,
+.result-text p{
+    text-align: center;
+}
+.result-text h1{
+    font-size: 2.5em;
+}
+.result-text p{
+    font-size: 1.5em;
+}
+.result-plane-design-img{
+    display: flex;
+}
+.result-main-img-text{
+    margin-left: 30px;
+    border: 2px solid #ecf0f1;
+}
+.main-result-text h2,
+.main-result-text p{
+    text-align: center;
+}
